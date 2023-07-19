@@ -1,0 +1,27 @@
+{
+  "name": "hh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.1",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.3",
+    "@types/dotenv": "^8.2.0",
+    "chain": "^0.4.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.6.3",
+    "hardhat": "^2.16.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.4"
+  }
+}

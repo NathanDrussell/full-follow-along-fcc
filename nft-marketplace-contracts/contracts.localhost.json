@@ -1,0 +1,31 @@
+{
+  "network": {
+    "name": "localhost",
+    "chainId": 31337
+  },
+  "Marketplace": {
+    "address": "0xD84379CEae14AA33C123Af12424A37803F885889",
+    "abi": [
+      "error AlreadyListed()",
+      "error MustBeApproved()",
+      "error MustBeOwner()",
+      "error MustSpecifyPrice()",
+      "error NotEnoughEther()",
+      "error NotForSale()",
+      "error TransferFailed()",
+      "event ItemBought(address indexed,address indexed,uint256 indexed,uint256)",
+      "event ItemListed(address indexed,address indexed,uint256 indexed,uint256)",
+      "event OwnershipTransferred(address indexed,address indexed)",
+      "function buyAsset(address,uint256) payable",
+      "function cancelListing(address,uint256)",
+      "function getBalance(address) view returns (uint256)",
+      "function getListing(address,uint256) view returns (tuple(address,uint256))",
+      "function listAsset(address,uint256,uint256)",
+      "function owner() view returns (address)",
+      "function renounceOwnership()",
+      "function transferOwnership(address)",
+      "function updateListing(address,uint256,uint256)",
+      "function withdraw() payable"
+    ]
+  }
+}

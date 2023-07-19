@@ -1,0 +1,24 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsup src/ethers-simple-storage.ts --format esm --watch --onSuccess \"node dist/ethers-simple-storage.mjs\"",
+    "compile": "pnpm solcjs --bin --abi --include-path node_modules --base-path . -o src/SimpleStorage.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.6.3",
+    "solc": "^0.8.8"
+  },
+  "devDependencies": {
+    "hardhat": "^2.16.1",
+    "prettier": "^3.0.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
